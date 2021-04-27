@@ -1,0 +1,8 @@
+venv/
+*.pyc
+*.mp3
+*.wav
+splits/
+__pycache__/
+.idea
+*.txt
