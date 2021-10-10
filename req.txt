@@ -1,0 +1,3 @@
+    youtube-dl
+    ffmpy
+    music_tag
