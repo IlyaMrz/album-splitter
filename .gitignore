@@ -1,8 +1,9 @@
 splits/
 tracks.txt
-album_splitter/_rawTracks.txt
-/album_splitter/tracks.txt
+*/_rawTracks.txt
+*/tracks.txt
 .vscode/
+**.txt
 **/*.txt
 **/*.opus
 # Created by https://www.toptal.com/developers/gitignore/api/python,linux,windows
