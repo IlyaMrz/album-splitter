@@ -157,7 +157,7 @@ if __name__ == "__main__":
         url_data = urlparse(args.youtube_url)
         query = parse_qs(url_data.query)
         video_id = query["v"][0]
-        input_file = Path(video_id + ".wav")
+        input_file = Path(video_id + ".opus")
         if not input_file.exists():
             print("Downloading video from YouTube")
             with YoutubeDL(ydl_opts) as ydl:

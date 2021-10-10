@@ -30,7 +30,7 @@ ydl_opts = {
     "postprocessors": [
         {
             "key": "FFmpegExtractAudio",
-            "preferredcodec": "wav",
+            "preferredcodec": "opus",
             "preferredquality": "0",
         }
     ],
